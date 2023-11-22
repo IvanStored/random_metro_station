@@ -69,7 +69,7 @@ blue_line = [
     {"name": "🔵Теремки🔵", "lan": 50.3670444, "lon": 30.4542028},
 ]
 
-
+all_lines = red_line + green_line + blue_line
 load_dotenv()
 
 TOKEN = getenv("TOKEN")
